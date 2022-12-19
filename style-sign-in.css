@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #c2185b;
+    height: 60px;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 57px;
+    list-style: none;
+    width: 437px
+}
+
+header ul li {
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+}
+
+body {
+    background-color: #cfcfcf;
+}
+
+.parent {
+    height: 524px;
+    width: 391px;
+    background-color: white;
+    margin: auto;
+    margin-top: auto;
+    margin-top: 75px;
+    padding: 32px;
+    font-family: 'Roboto', sans-serif;
+    border-style: outset;
+}
+
+#username {
+    height: 32px;
+    width: 289px;
+    padding-left: 23px;
+    margin: 10px;
+    background-color: #e8f5e9;
+}
+
+#pass {
+    height: 32px;
+    width: 289px;
+    padding-left: 23px;
+    margin: 10px;
+    background-color: #e8f5e9;
+}
+
+.entry-type {
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+    height: 40px;
+    align-items: center;
+    margin-left: 37px;
+
+}
+
+.btn {
+    width: 91px;
+    height: 35px;
+    border-radius: 27px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.table-style {
+    border: 1px solid black;
+    width: 289px;
+    margin: auto;
+    margin-top: auto;
+    margin-top: 11px;
+    padding-left: 11px;
+    text-align: center;
+    height: 35px;
+    border-radius: 50px;
+    background-color: #fff59d;
+    cursor: pointer;
+}
+
+.table-style img {
+
+    margin-top: 5px;
+}
+
+#top-table {
+    margin-top: 80px;
+}
+
+.logo {
+    width: 20px;
+}
